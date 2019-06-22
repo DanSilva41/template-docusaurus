@@ -21,17 +21,17 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Test Site', // Title for your website.
-  tagline: 'A website for testing',
-  url: 'https://your-docusaurus-test-site.com', // Your website URL
+  title: 'CPR-STJ', // Title for your website.
+  tagline: 'Explore a aplicação - Portal Orçamentário Financeiro - STJ',
+  url: 'https://cpr-dev.stj.jus.br', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'test-site',
-  organizationName: 'facebook',
+  projectName: 'cpr-stj',
+  organizationName: 'Global Web',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
@@ -40,7 +40,7 @@ const siteConfig = {
   headerLinks: [
     {doc: 'doc1', label: 'Docs'},
     {doc: 'doc4', label: 'API'},
-    {page: 'help', label: 'Help'},
+    {page: 'help', label: 'Ajuda'},
     {blog: true, label: 'Blog'},
   ],
 
@@ -49,8 +49,8 @@ const siteConfig = {
 
   /* path to images for header/footer */
   headerIcon: 'img/pastel-64.png',
-  footerIcon: 'img/favicon.ico',
-  favicon: 'img/favicon.ico',
+  footerIcon: 'img/pastel-64.png',
+  favicon: 'img/pastel-64.png',
 
   /* Colors for website */
   colors: {
@@ -73,10 +73,11 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Copyright © ${new Date().getFullYear()} Global Web`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
+    // https://github.com/highlightjs/highlight.js
     theme: 'default',
   },
 
